@@ -1,0 +1,68 @@
+main section figure {
+    text-align: center;
+}
+
+main section figure img{
+    width: 100%;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.paragrafo {
+    text-align: justify;
+    font-size: 0.6em;
+    margin: 5%;
+}
+
+.img-sub {
+    font-size: 7px;
+}
+
+
+    
+@media screen and (min-width: 992px) {
+    header{
+        position: relative;
+    }
+
+    .menu {
+        position: absolute; 
+        right: 2%;
+        top: 18%;
+    }
+
+    main section article h2 {
+        font-size: 1.2em;
+    }
+
+    .menu ul {
+        font-size: 14px;
+    }
+
+    .artigo p {
+        font-size: 1em;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    main section figure img{
+        width: 50%;
+    }
+
+    .rodape {
+        font-size: 14px;
+    }
+
+    .img-sub {
+        font-size: 10px;
+    }
+    
+    .title2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+}

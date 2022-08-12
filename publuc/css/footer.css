@@ -1,0 +1,27 @@
+/* Estilos do footer */
+
+footer {
+    text-align: center;
+    border-top: 1px solid;
+    border-color: #f0f5ff;
+    padding: 15px;
+    width: 75%;
+    margin: auto;
+    text-transform: lowercase;
+    font-size: 25px;
+}
+
+footer section span:first-child {
+    color: #5e49ff;
+}
+
+footer section span:last-child {
+    color: #3bd42d;
+}
+
+@media screen and (min-width: 992px){
+    
+    footer {
+        font-size: 12px;
+    }
+}

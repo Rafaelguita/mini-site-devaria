@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!--A tag DOCTYPE serve para identificar a versão do HTML. Nesse caso, a mais recente-->
+<html lang="pt-BR"> <!--'lang' é o parâmetro para dizer em qual língua o nosso documento será mostrado-->
+    <head> <!--Parte usada para definir configurações que NÃO aparecerão no corpo da página-->
+        <meta charset="utf-8" /> <!--Identificação de um conjunto de caracteres que serão interpretados pelo navegador.-->
+        <meta name="description" content="Página de exercício em aula da Devaria" /> <!--Descrição da página-->
+        <meta name="keywords" content="Teste, programação, aula, devaria" /> <!--Palavras chave para buscadores-->
+        <meta name="author" content="Rafael Silva" /> <!--Tag para indicar a autoria da página, nesse caso, a gente!-->
+        <meta http-equiv="refresh" content="300"> <!--Auto refresh da página medido em segundos (5 minutos nesse caso)-->
+        <link rel="stylesheet" href="publuc/css/header.css"> <!--Importando os estilos do header-->
+        <link rel="stylesheet" href="publuc/css/devaria.css"> <!--Importando os estilos globais-->
+        <link rel="stylesheet" href="publuc/css/footer.css"> <!-- Importando os estilos do footer-->
+        <link rel="stylesheet" href="publuc/css/index.css" /> <!--Importando os estilos do index-->
+        <title>Olá Mundo!</title> <!--Título que ficará escrito na aba do navegador-->
+    </head>
+    <body> <!--Corpo da página. Tudo aqui será mostrado na página-->
+        <header> <!--Cabeçalho da página. Geralmente é mantido fixo entre as páginas de um site-->
+            <img src="publuc/fotos/logo-devaria.svg" alt="Logo Devaria">
+            <h1>Bem vindo ao mini site da Devaria!</h1> <!--Título da página. Podem haver subtítulos (h2, h3...)-->
+            <nav class="menu"> <!--Representa uma seção de uma página que aponta para outras páginas-->
+                <ul><!--Representa uma lista de itens sem ordem rígida-->
+                    <li><a href="index.html">Home</a></li> <!--A tag 'li' representa um tópico da lista em si-->
+                    <li><a href="professores.html">Professores</a></li> <!--A tag 'a' com o atributo 'href' cria-se um hiperligação nas páginas web-->
+                    <li><a href="fale-conosco.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main> <!--Parte da página onde fica o conteúdo principal-->
+            <section class="cover-container"> <!--Representa uma seção em um documento HTML-->
+                <figure> <!--Indica que há uma figura-->
+                    <img src="publuc/fotos/coding.png" alt="Jersey Shore" /> <!--tag de imagem; com parâmetros de localização da imagem (src), tamanho (width) e nome no css (alt)-->
+                </figure>
+            </section>
+                <h2 class="subtitle">Confira abaixo um pouco sobre nosso projeto!</h2>
+            <section class="intro-video">
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/27MGFFJxpe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+            
+            <section>
+                <h3 class="bottom-title" >Para que os <abbr title="Developers">DEVs</abbr> fiquem sabendo, nós utilizamos <abbr title="Microsoft">MS</abbr> Azure </h3>
+                <blockquote cite="https://azure.microsoft.com/pt-br/solutions/">Resolva os problemas de negócios com combinações comprovadamente eficientes de produtos e serviços do Azure. Introdução à documentação e às arquiteturas de exemplo.</blockquote>
+            </section>
+        </main>
+        <footer> <!--Rodapé da página. Aquelas paradas que aparecem no final das páginas.-->
+            <section>  
+                <span>contato@devaria.com.br</span> <br /> <!--Marcação de uma parte do texto (também não entendi, mas tamo ae)-->
+                <span>Conheça nosso canal no Youtube!</span> <!--A tag 'br' pula uma linha (quebra de linha). Pode ser fechada na mesma tag.-->
+            </section>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html> <!--A tag DOCTYPE serve para identificar a versão do HTML. Nesse caso, a mais recente-->
+<html lang="pt-BR"> <!--'lang' é o parâmetro para dizer em qual língua o nosso documento será mostrado-->
+    <head> <!--Parte usada para definir configurações que NÃO aparecerão no corpo da página-->
+        <meta charset="utf-8" /> <!--Identificação de um conjunto de caracteres que serão interpretados pelo navegador.-->
+        <title>Fale Conosco</title> <!--Título que ficará escrito na aba do navegador-->
+        <link rel="stylesheet" href="publuc/css/devaria.css">
+        <link rel="stylesheet" href="publuc/css/footer.css">
+        <link rel="stylesheet" href="publuc/css/header.css">
+        <link rel="stylesheet" href="publuc/css/fale-conosco.css">
+    </head>
+    <body> <!--Corpo da página. Tudo aqui será mostrado na página-->
+        <header> <!--Cabeçalho da página. Geralmente é mantido fixo entre as páginas de um site-->
+            <img src="publuc/fotos/logo-devaria.svg" alt="Logo Devaria">
+            <h1>Fale Conosco!</h1> <!--Título da página. Podem haver subtítulos (h2, h3...)-->
+            <nav class="menu"> <!--Representa uma seção de uma página que aponta para outras páginas-->
+                <ul><!--Representa uma lista de itens sem ordem rígida-->
+                    <li><a href="index.html">Home</a></li> <!--A tag 'li' representa um tópico da lista em si-->
+                    <li><a href="professores.html">Professores</a></li> <!--A tag 'a' com o atributo 'href' cria-se um hiperligação nas páginas web-->
+                    <li><a href="fale-conosco.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2 class="main-title">Para dúvidas, sugestões, críticas ou comentários; preencha o formulário abaixo.</h2>
+                <form action="index.html"><!--O "Form" é a tag para abrir um formulário, e o parâmetro "action" é a página ou endereço que será redirecionado após o envio desse formulário-->
+                    <div>
+                        <label>Nome:</label> <input type="text" name="Nome"/> <!--A tag "Label" cria uma espécie de caixa do qual pode interagir com o usuário, enquanto que a tag "input type" informa qual será o tipo dessa caixa-->
+                    </div>
+                    <div>
+                        <label>Sexo:</label>
+                        <input type="radio" name="Sexo" /> <label>Feminino</label> <!--"Radio" é o parâmetro que fica uma bolinha marcada na opção desejada.-->
+                        <input type="radio" name="Sexo" /> <label>Masculino</label>
+                    </div>
+                    <div>
+                        <label>E-mail:</label> <input type="text" name="Email"/>
+                    </div>
+                    <div>
+                        <label>Comentário:</label>
+                    </div>
+                        <textarea name="Comentario" cols="50" rows="4"></textarea> <!--Cria uma caixa de texto demarcando a quantidade de linhas e colunas (rows and cols) desejada-->
+                    <div>
+                        <label>Onde nos conheceu?</label>
+                        <select name="Conheceu"> <!--A tag "Select" cria uma caixa com vários itens selecionáveis entre várias opções-->
+                            <option>Youtube</option> <!--A tag "Option" é a opção em si-->
+                            <option>Google</option>
+                            <option>Amigos</option>
+                            <option>Outro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Inscrever" value="Aceito" /> <!--"checkbox" é aquela caixa que fica com um certinho; o parâmetro "value" serve para indicar à que nossa checkbox se refere-->
+                        <label>Quero me inscrever para receber notícias e novidades em primeira mão!</label>
+                    </div>
+                    <div>
+                        <input type="submit" name="Enviar" value="Enviar" /> <!--"Submit" é o botão de enviar-->
+                        <input type="reset" name="Limpar" value="Limpar" /> <!--"Reset" é o botão de limpar todas as informações do formulário. OBS: o parâmetro "value" nesse caso, da o nome do botão-->
+                    </div>
+                </form> 
+            </section>
+        </main>
+        <footer> <!--Rodapé da página. Aquelas paradas que aparecem no final das páginas.-->
+            <section>  
+                <span>contato@devaria.com.br</span> <br /> <!--Marcação de uma parte do texto (também não entendi, mas tamo ae)-->
+                <span>Conheça nosso canal no Youtube!</span> <!--A tag 'br' pula uma linha (quebra de linha). Pode ser fechada na mesma tag.-->
+            </section>
+        </footer>
+    </body>
+</html>

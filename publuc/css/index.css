@@ -1,0 +1,57 @@
+.cover-container figure img{
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+body .menu{
+    margin: 20px;
+}
+
+body .intro-video {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body .subtitle,
+body .bottom-title {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+body .bottom-title {
+    margin-top: 25px;
+    font-size: 0.8em;
+}
+
+body section blockquote {
+    text-align: justify;
+    font-size: 9px;
+    margin-bottom: 20px;
+}
+
+main section abbr {
+    color: #25cbd3;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 992px){
+    
+    body section blockquote {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    body .intro-video {
+        display: block;
+        margin-left: 34%;
+    margin-right: 20%;
+    }
+
+    body .subtitle,
+    body .bottom-title {
+        font-size: 1.2em;
+    }
+}

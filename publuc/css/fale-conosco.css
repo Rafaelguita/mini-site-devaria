@@ -1,0 +1,82 @@
+.main-title {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+main section form {
+    margin: 20px;
+}
+
+main section form > div {
+    margin: 20px;
+}
+
+main section form > div label {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+main section form input,
+main section form select,
+main section form textarea {
+    width: 90%;
+    padding: 10px;
+    outline-color: #3db42d;
+}
+
+main section form select {
+    width: 20%;
+}
+
+main section form select option {
+    text-align: center;
+}
+
+main section form textarea {
+    resize: none;
+    
+}
+
+main section form input[type="radio"],
+main section form input[type="checkbox"] {
+    width: 30px;
+}
+
+main section {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #3db42d;
+    border-radius: 10px;
+}
+
+main section form input[type="submit"],
+main section form input[type="reset"] {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    border-radius: 10px;
+    width: 20%;
+}
+
+main section form input[type="submit"] {
+    background-color: #3db42d;
+    font-weight: bold;
+}
+
+main section form input[type="reset"] {
+    background-color: brown;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 992px){
+    main section {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+        border: 2px solid #3db42d;
+    }
+
+    main section form > div label {
+        font-size: 1em;
+    }
+}
